@@ -1,0 +1,37 @@
+<odoo>
+    <record id="view_stackit_notification_tree" model="ir.ui.view">
+        <field name="name">stackit.notification.tree</field>
+        <field name="model">stackit.notification</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="user_id"/>
+                <field name="message"/>
+                <field name="is_read"/>
+                <field name="created_at"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_stackit_notification_form" model="ir.ui.view">
+        <field name="name">stackit.notification.form</field>
+        <field name="model">stackit.notification</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="user_id"/>
+                        <field name="message"/>
+                        <field name="is_read"/>
+                        <field name="created_at" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_stackit_notification" model="ir.actions.act_window">
+        <field name="name">Notifications</field>
+        <field name="res_model">stackit.notification</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

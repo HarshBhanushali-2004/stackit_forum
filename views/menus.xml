@@ -1,0 +1,28 @@
+<odoo>
+    <menuitem id="menu_stackit_root" name="StackIt Forum" sequence="10"/>
+
+    <menuitem id="menu_stackit_tag"
+              name="Tags"
+              parent="menu_stackit_root"
+              action="action_stackit_tag"/>
+
+    <menuitem id="menu_stackit_question"
+              name="Questions"
+              parent="menu_stackit_root"
+              action="action_stackit_question"/>
+
+    <menuitem id="menu_stackit_answer"
+              name="Answers"
+              parent="menu_stackit_root"
+              action="action_stackit_answer"/>
+
+    <menuitem id="menu_stackit_vote"
+              name="Votes"
+              parent="menu_stackit_root"
+              action="action_stackit_vote"/>
+
+    <menuitem id="menu_stackit_notification"
+              name="Notifications"
+              parent="menu_stackit_root"
+              action="action_stackit_notification"/>
+</odoo>

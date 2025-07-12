@@ -1,0 +1,35 @@
+<odoo>
+    <record id="view_stackit_vote_tree" model="ir.ui.view">
+        <field name="name">stackit.vote.tree</field>
+        <field name="model">stackit.vote</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="answer_id"/>
+                <field name="user_id"/>
+                <field name="vote_type"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_stackit_vote_form" model="ir.ui.view">
+        <field name="name">stackit.vote.form</field>
+        <field name="model">stackit.vote</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="answer_id"/>
+                        <field name="user_id"/>
+                        <field name="vote_type"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_stackit_vote" model="ir.actions.act_window">
+        <field name="name">Votes</field>
+        <field name="res_model">stackit.vote</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
