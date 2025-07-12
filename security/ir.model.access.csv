@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_stackit_tag,access_stackit_tag,model_stackit_tag,,1,1,1,1
+access_stackit_question,access_stackit_question,model_stackit_question,,1,1,1,1
+access_stackit_answer,access_stackit_answer,model_stackit_answer,,1,1,1,1
+access_stackit_vote,access_stackit_vote,model_stackit_vote,,1,1,1,1
+access_stackit_notification,access_stackit_notification,model_stackit_notification,,1,1,1,1

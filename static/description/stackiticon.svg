@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rounded rectangle -->
+  <rect width="256" height="256" rx="40" fill="#1D3557"></rect>
+  
+  <!-- Bottom speech bubble -->
+  <path d="M40 150 h120 a10 10 0 0 1 10 10 v40 a10 10 0 0 1 -10 10 h-30 l-20 20 v-20 h-70 a10 10 0 0 1 -10 -10 v-40 a10 10 0 0 1 10 -10 z" fill="#457B9D"></path>
+  
+  <!-- Top speech bubble (smaller, stacked) -->
+  <path d="M70 70 h100 a8 8 0 0 1 8 8 v30 a8 8 0 0 1 -8 8 h-25 l-15 15 v-15 h-60 a8 8 0 0 1 -8 -8 v-30 a8 8 0 0 1 8 -8 z" fill="#E76F51"></path>
+  
+  <!-- Q&A text -->
+  <text x="50%" y="240" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28">StackIt</text>
+</svg>
